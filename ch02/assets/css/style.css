@@ -1,0 +1,36 @@
+.in {
+  color: black;
+}
+
+.bulleted .in::before{
+    content: "in";
+    background-color: green;
+    color: white;
+    padding: 5px 14px;
+    line-height: 1.2;
+   margin-right: 5px;
+}
+
+.out {
+  color: grey;
+}
+
+.bulleted .out::before{
+    content: "out";
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    line-height: 1.2;
+   margin-right: 5px;
+}
+
+.in,
+.out {
+  padding: 5px;
+  margin: 5px 0;
+}
+
+.bulleted {
+    list-style: none;
+    width: 33.333%;
+}
